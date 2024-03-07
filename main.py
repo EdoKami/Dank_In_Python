@@ -80,7 +80,7 @@ elif st == "3":
     time.sleep(1)
     print("If you ever found errors or bug send me picture of it so i can fix it in the next version")
     time.sleep(1)
-    print("Version-0.1")
+    print("Version-0.2")
     time.sleep(10)
 elif st == "4":
     exit()
