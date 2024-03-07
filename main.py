@@ -43,7 +43,7 @@ if st == "1":
         cd = input(f"{name}> ").lower()
         if cd == "help":
                 print(f"Current Commands: ", end="")
-                Dank.Availablecommands(Dank)
+                print(Dank.Availablecommands(Dank))
         elif cd == "exit":
             exit()
         elif cd == "/bal":
