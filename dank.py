@@ -116,7 +116,7 @@ class Dank:
             print(":|\n")
         elif chanc == 7:
             notez = rd.randint(0,50)
-            if notez >= 7:
+            if notez >= 3:
                 l = rd.randint(6083, 56951)
                 print(f"You found a single gold coin worth {l}Rs ")
                 c.execute("UPDATE dank SET money = money + ? WHERE name = ?", (l, name))
