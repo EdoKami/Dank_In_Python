@@ -258,7 +258,7 @@ class Dank:
         return r
 
     def Availablecommands(self):
-        return "< /bal >, < /dig >, < /beg >, < /update >, < /crime > more comming soon baby!!!!!!!"
+        return "< /bal >, < /dig >, < /beg >, < /update >, < /crime > & < /highlow > more comming soon baby!!!!!!!"
         
     def bal(self, name):
         c.execute("SELECT money FROM dank WHERE name=?", (name,))
@@ -468,4 +468,3 @@ class Dank:
                 print("Dank> You guessed it wrong!")
                 time.sleep(rt)
                 print(f"Dank> The secret number was {hiddennumber}")
-        
